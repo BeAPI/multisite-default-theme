@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: multisite-default-theme/classes/admin/main.php:80
+#: multisite-default-theme/classes/admin/admin.php:80
+msgid "See themes available"
+msgstr ""
+
+#. Text in echo
+#: multisite-default-theme/classes/admin/main.php:70
+#: multisite-default-theme/classes/admin/admin.php:70
+msgid "Theme by default"
+msgstr ""
+
+#. Text in echo
+#: multisite-default-theme/classes/admin/main.php:66
+#: multisite-default-theme/classes/admin/admin.php:66
+msgid "Theme settings"
+msgstr ""
