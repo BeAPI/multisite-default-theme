@@ -74,6 +74,7 @@ class Main {
 							<option value="<?php esc_attr_e( $theme->template ); ?>" <?php selected( esc_attr( $theme->template ), $default_theme ); ?>><?php esc_html_e( $theme->name ); ?></option> ;
 						<?php endforeach; ?>
 					</select>
+				</td>
 			</tr>
 			</tbody>
 		</table>
