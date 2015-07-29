@@ -34,9 +34,9 @@ class Main {
 		 * check admin referer
 		 */
 		check_admin_referer( 'siteoptions' );
-
+		
 		if ( $_POST['default_network_theme'] ) {
-			return update_site_option( 'default_network_theme', esc_html( $_POST['default_network_theme'] ) );
+			return update_site_option( 'default_network_theme', apply_filters( 'default_network_theme_pre_update_option', sanitize_option( 'default_network_theme', $_POST['default_network_theme'] ) ) );
 		}
 
 		return true;
