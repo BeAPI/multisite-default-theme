@@ -1,0 +1,19 @@
+
+{
+  "name": "beapi/multisite-default-theme",
+  "description": "Multisite default theme",
+  "license": "GPL-3.0",
+  "require": {
+    "php": ">=5.4"
+  },
+  "authors": [
+    {
+      "name": "Be API",
+      "email": "technical@beapi.fr"
+    }
+  ],
+  "type" : "wordpress-plugin",
+  "require" : {
+    "composer/installers" : "~1.0"
+  }
+}
